@@ -4,13 +4,13 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.white,
-        body: Center(child:Image(
-          image: NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
-        ),),
         appBar: AppBar(
-          title: Text("I am Redeemer"),
+          title: Text("This is your cat image"),
           backgroundColor: Colors.blueGrey[700],
+        ),
+        backgroundColor: Colors.white,
+        body: Center(
+          child: Image.asset('assets/images/cat.12495.jpg'),
         ),
       ),
     ),
